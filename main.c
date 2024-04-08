@@ -6,7 +6,7 @@
 #include "headers/setOperation.h"
 
 void printMenu() {
-    printf("简易科学计算器\n");
+    printf("------简易科学计算器------\n");
     printf("1. 矩阵运算\n");
     printf("2. 阶乘计算\n");
     printf("3. 等差数列求和\n");
@@ -25,8 +25,8 @@ int main() {
         switch(choice) {
             case 1:
                 // 调用矩阵运算函数
-                printf("矩阵运算选项\n");
-                // matrixOperation();
+                printf("------矩阵运算选项------\n");
+                matrixOperation();
                 break;
             case 2:
                 // 调用阶乘计算函数
@@ -34,17 +34,17 @@ int main() {
                 break;
             case 3:
                 // 调用等差数列求和函数
-                printf("等差数列求和选项\n");
-                // sumofArithmeticSequence();
+                printf("------等差数列求和选项------\n");
+                sumofArithmeticSequence();
                 break;
             case 4:
                 // 调用解方程函数
-                printf("解方程选项\n");
+                printf("------解方程选项------\n");
                 // solveEquation();
                 break;
             case 5:
                 // 调用集合的交与并运算函数
-                printf("集合的交与并运算选项\n");
+                printf("------集合的交与并运算选项------\n");
                 // setOperations();
                 break;
             case 0:
