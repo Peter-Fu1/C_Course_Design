@@ -1,10 +1,10 @@
 #include "headers/factorial.h" // 链接头文件
 #include <stdio.h>
 
-// 声明阶乘计算的辅助函数
+// 进行阶乘计算的函数
 static int computeFactorial(int n);
 
-// 提供给main.c调用的接口函数，执行阶乘计算操作
+// 提供给main.c调用的接口函数
 void performFactorialOperation() {
     int number;
     printf("请输入一个非负整数计算阶乘：");
