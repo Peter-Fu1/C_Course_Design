@@ -40,12 +40,12 @@ int main() {
             case 4:
                 // 调用解方程函数
                 printf("------解方程选项------\n");
-                // solveEquation();
+                solveEquation();
                 break;
             case 5:
                 // 调用集合的交与并运算函数
                 printf("------集合的交与并运算选项------\n");
-                // setOperations();
+                setOperation();
                 break;
             case 0:
                 printf("退出程序。\n");

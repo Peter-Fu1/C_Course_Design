@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include "headers/solveEquation.h"
 
 void solveQuadraticEquation();
 void solveLinearEquations();
@@ -66,9 +67,4 @@ void solveLinearEquations() {
         double y = (a*f - e*c) / denominator;
         printf("方程组的解为：x = %.2lf, y = %.2lf\n", x, y);
     }
-}
-
-int main() {
-    solveEquation();
-    return 0;
 }
